@@ -1,0 +1,5 @@
+package com.proyectoBBDDbien.entidades;
+
+public class Usuarios {
+
+}

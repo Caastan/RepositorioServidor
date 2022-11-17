@@ -1,0 +1,9 @@
+package com.proyectoBBDDbien.entidades;
+
+public class Usuarios {
+	protected int id;
+	protected String login;
+	protected String password;
+	protected String nombre;
+	protected String login;
+}

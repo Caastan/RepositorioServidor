@@ -1,0 +1,21 @@
+package com.proyectoBBDDbien.controladores;
+
+
+
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+@Controller
+public class Controlador {
+	protected Usuariosrepositorios v;
+	@GetMapping("/verUsuario")
+	public ModelAndView PersonasIntranet() {
+		
+		return new ModelAndView ("verUsuario");
+	}
+	
+
+}
+

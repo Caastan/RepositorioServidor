@@ -1,0 +1,8 @@
+package com.proyectoBBDDbien.bbdd;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class Usuariosrepositorios {
+	protected JdbcTemplate template;
+}

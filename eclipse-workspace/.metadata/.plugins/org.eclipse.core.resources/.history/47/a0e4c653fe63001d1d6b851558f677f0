@@ -1,0 +1,7 @@
+package com.proyectoBBDDbien.entidades;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class UsuarioMapper implements RowMapper<Usuarios>{
+
+}
